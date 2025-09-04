@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:5000";
+const API_BASE_URL = env_variable || "http://localhost:5000";
 
 const submit = async (formData) => {
   const response = await fetch(`${API_BASE_URL}/predict`, {
