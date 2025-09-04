@@ -1,5 +1,5 @@
-const API_BASE_URL = process.env.REACT_APP_ENV_VARIABLE || "http://localhost:5000";
-// sgs
+const API_BASE_URL = process.env.REACT_APP_ENV_VARIABLE || "https://aib-fx2w.onrender.com";
+// sgsdd
 const submit = async (formData) => {
   const response = await fetch(`${API_BASE_URL}/predict`, {
     method: "POST",
