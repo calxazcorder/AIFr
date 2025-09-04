@@ -92,11 +92,10 @@ const SearchForm = () => {
     required
   >
     <option value="">Select a region</option>
-    <option value="NW">SW</option>
-    <option value="NE">SE</option>
-    <option value="SW">SE</option>
-    <option value="SE">SW</option>
-    <option value="SE">SW</option>
+    <option value="NW">NW</option>
+    <option value="NE">NE</option>
+    <option value="SW">SW</option>
+    <option value="SE">SE</option>
     <option value="C">C</option>
   </select>
 
@@ -155,9 +154,9 @@ const SearchForm = () => {
     >
       <option value="">Select</option>
       <option value="Turkish">Turkish</option>
-      <option value="Georgian">Georgian</option>
       <option value="Belgian">Belgian</option>
       <option value="French">french</option>
+      <option value="Georgian">Georgian</option>
       <option value="Asian">Asian</option>
       <option value="Italian">Italian</option>
       <option value="Mediteranean">Mediteranean</option>
